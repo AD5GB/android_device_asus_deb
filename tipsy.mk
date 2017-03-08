@@ -12,22 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common Validus stuff.
-$(call inherit-product, vendor/validus/config/common_full_tablet_wifionly.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
+# Inherit some common Tesla stuff.
+$(call inherit-product, vendor/tipsy/config/common_full_tablet_wifionly.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
-$(call inherit-product-if-exists, vendor/asus/deb/device-vendor.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := deb
-PRODUCT_NAME := validus_deb
+PRODUCT_NAME := tipsy_deb
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
