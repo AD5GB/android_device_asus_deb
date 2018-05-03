@@ -14,8 +14,9 @@
    "target_path": "kernel/google/msm",
    "revision": "8.1"
  },
+ {
    "repository": "TheMuppets/proprietary_vendor_asus",
-   "target_path": "vendor/asus,
+   "target_path": "vendor/asus",
    "revision": "lineage-15.1"
  }
 ]
