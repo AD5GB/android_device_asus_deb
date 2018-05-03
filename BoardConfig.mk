@@ -26,7 +26,8 @@ TARGET_SYSTEM_PROP := \
 
 TARGET_RECOVERY_FSTAB = device/asus/deb/rootdir/etc/fstab.deb
 
-BOARD_SEPOLICY_DIRS += device/asus/deb/sepolicy
+# Disable selinux for the moment
+#BOARD_SEPOLICY_DIRS += device/asus/deb/sepolicy
 
 -include vendor/asus/deb/BoardConfigVendor.mk
 include device/asus/flo/BoardConfigCommon.mk
