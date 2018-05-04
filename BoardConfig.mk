@@ -28,6 +28,7 @@ TARGET_RECOVERY_FSTAB = device/asus/deb/rootdir/etc/fstab.deb
 
 # Disable selinux for the moment
 #BOARD_SEPOLICY_DIRS += device/asus/deb/sepolicy
+BOARD_USES_GENERIC_AUDIO := true
 
 -include vendor/asus/deb/BoardConfigVendor.mk
 include device/asus/flo/BoardConfigCommon.mk
