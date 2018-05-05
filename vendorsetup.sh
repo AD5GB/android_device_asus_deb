@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_deb-userdebug
-add_lunch_combo validus_deb-userdebug
+#add_lunch_combo gzosp_deb-user
+#add_lunch_combo gzosp_deb-userdebug
+#add_lunch_combo tipsy_deb-user
+#add_lunch_combo tipsy_deb-userdebug
+add_lunch_combo validus_deb-user
+add_lunch_combo vaildus_deb-userdebug
 ~                                                  
